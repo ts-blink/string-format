@@ -16,6 +16,7 @@
     "type": "git",
     "url": "git://github.com/davidchambers/string-format.git"
   },
+  "main": "index",
   "files": [
     "LICENSE",
     "README.md",
