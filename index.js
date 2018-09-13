@@ -84,13 +84,6 @@ void function(global) {
     };
   };
 
-  /* istanbul ignore else */
-  if (typeof module !== 'undefined') {
-    module.exports = format;
-  } else if (typeof define === 'function' && define.amd) {
-    define(function() { return format; });
-  } else {
-    global.format = format;
-  }
+  module.exports = format;
 
 }.call(this, this);
